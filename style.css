@@ -1,5 +1,27 @@
-
+h1 {
+    color: rgb(66, 108, 163);
+    text-align: center;
+    background-color: rgb(240, 179, 197);
+    padding: .2em;
+    font-size: 5em
+}
 body {
-    background-color: rgb(145, 143, 125);
+    background-color: rgb(255, 245, 232);
+}
+header {
+    text-align: center;
+}
+nav {
+    word-spacing: 15;
+}
+ul { 
+    border: 1px;
+    color: purple;
+    background-color: dimgrey;
+    padding: 1em;
+    word-spacing: 10;
 }
 
+section {
+    text-align: center;
+}
