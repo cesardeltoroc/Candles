@@ -1,14 +1,14 @@
 h1 {
     color: rgb(255, 255, 255);
     text-align: center;
-    background-color: rgb(24, 26, 143);
+    background-color: rgb(49, 0, 0);
     padding: 0;
     font-size: 5em;
     font-family: cursive;
-    
+
 }
 body {
-    background-color: rgb(167, 172, 201);
+    background-color: rgb(201, 182, 182);
 }
 h2 {
     color: rgb(255, 255, 255);
@@ -27,15 +27,23 @@ header {
     border-radius:  2;
 }
 
-header ul- { 
-    color: blue;
-
+header ul { 
+    color: rgb(19, 1, 1);
 }
 
 section {
-    text-align: center;
+    text-align: left;
 }
 footer {
     background-color: rgb(6, 12, 102);
-    color: white;
+    color: rgb(214, 212, 243);
+}
+li {
+    text-decoration-line: underline;
+    display: inline-block;
+    padding: 7px;
+    font-size: 30px;
+}
+img {
+    float:left
 }
