@@ -1,1 +1,5 @@
-let userAnswer= prompt ('If you would like to recieve Notification enter email:')
+function userSign () {
+    let userSign= prompt ('Whats your sign')
+    alert(userSign)
+}
+userSign()

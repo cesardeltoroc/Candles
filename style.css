@@ -32,7 +32,8 @@ header ul {
 }
 
 section {
-    text-align: left;
+    text-align: center;
+    font-size: 1.2em;
 }
 footer {
     background-color: rgb(6, 12, 102);
