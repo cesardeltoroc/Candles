@@ -20,8 +20,6 @@ function guessingGame() {
         }
     }
 }
-
-
 let userName= prompt ('Welcome Please Insert Name')
     document.write ('Welcome, ' + userName);
 
@@ -33,4 +31,12 @@ function userSign () {
         userSign= prompt ("Please Insert Your Email:")
     }
 
+}
+
+function askCoffee(){
+    let anotherPicture = prompt('How many baby yoda images would you like to see?');
+    let picURL = "https://am22.mediaite.com/tms/cnt/uploads/2019/12/Baby-Yoda-With-His-Little-Cup-Is-All-of-Us.jpeg"
+    for(let i = 0; i < anotherPicture; i++){
+        document.write('<img src="' + picURL + '">')
+    }
 }
