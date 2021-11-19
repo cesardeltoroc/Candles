@@ -23,8 +23,7 @@ function guessingGame() {
 
 
 let userName= prompt ('Welcome Please Insert Name')
-
-document.write ('Welcome, ' + userName);
+    document.write ('Welcome, ' + userName);
 
 
 function userSign () {
